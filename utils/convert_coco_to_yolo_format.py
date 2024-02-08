@@ -52,21 +52,3 @@ def convert_coco_files_to_yolo(coco_files_direct, yolo_files_direct, class_mappi
         coco_formatted_file = os.path.join(coco_files_direct, coco_formatted_file)
         convert_coco_to_yolo(coco_formatted_file, yolo_formatted_file, class_mapping)
 
-'''
-# Usage
-coco_files_direct = '/home/ruby/PycharmProjects/apple-detection/datasets/ApplesAnnotated-800/annotations_filtered/'
-yolo_files_direct = os.path.join(ROOT_DIR, 'data/labels/train/')  # val
-class_mapping = {'Apple': 0}
-
-num_files_to_convert = 560 # Specify the number of files to convert, set to None to convert all files
-convert_coco_files_to_yolo(coco_files_direct, yolo_files_direct, class_mapping, num_files=num_files_to_convert)
-
-def is_folder_empty(folder_path):
-    with os.scandir(folder_path) as entries:
-        return any(entries)
-
-if is_folder_empty(yolo_files_direct):
-    print(f"The folder {yolo_files_direct} is not empty.")
-else:
-    print(f"The folder {yolo_files_direct} is empty.")
-'''
