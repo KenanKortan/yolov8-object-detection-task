@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/data/images/test" />
+      <excludeFolder url="file://$MODULE_DIR$/data/images/train" />
+      <excludeFolder url="file://$MODULE_DIR$/data/images/val" />
+      <excludeFolder url="file://$MODULE_DIR$/data/labels/test" />
+      <excludeFolder url="file://$MODULE_DIR$/data/labels/train" />
+      <excludeFolder url="file://$MODULE_DIR$/data/labels/val" />
+      <excludeFolder url="file://$MODULE_DIR$/runs" />
+      <excludeFolder url="file://$MODULE_DIR$/yolov8_venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.10 (yolov8-detection-task)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,14 @@
+.env
+yolov8_venv
+config.yaml
+yolov8n.pt
+runs
+data/images/train
+data/images/val
+data/images/test
+data/labels/train
+data/labels/test
+data/labels/val
+data/labels/train.cache
+data/labels/val.cache
+utils/Default
